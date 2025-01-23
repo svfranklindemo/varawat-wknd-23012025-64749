@@ -12,12 +12,12 @@
 
 :root {
   /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --background-color: #393232;
+  --light-color: #000000;
+  --dark-color: #ff0000;
+  --text-color: #00ff00;
+  --link-color: #0000ff;
+  --link-hover-color: #000fff;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -225,6 +225,7 @@ main img {
 .icon img {
   height: 100%;
   width: 100%;
+  filter: invert(1);
 }
 
 /* sections */
